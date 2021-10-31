@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4201A825270DE0B4007E40B2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4201A824270DE0B4007E40B2 /* Kingfisher */; };
 		4201A829270DEB5C007E40B2 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201A828270DEB5C007E40B2 /* CircleTextImageView.swift */; };
+		42B6D6B7272C369A003702E6 /* example_section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6D6B6272C369A003702E6 /* example_section.swift */; };
+		42B6D6BB272C80E8003702E6 /* ModelListView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6D6BA272C80E8003702E6 /* ModelListView .swift */; };
+		42B6D6BD272C88EA003702E6 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6D6BC272C88EA003702E6 /* TweetModel.swift */; };
+		42B6D6BF272F063D003702E6 /* TweetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6D6BE272F063D003702E6 /* TweetCard.swift */; };
 		42BE35C926E917AE00CBFB1E /* swift_ui_101App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE35C826E917AE00CBFB1E /* swift_ui_101App.swift */; };
 		42BE35CB26E917AE00CBFB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE35CA26E917AE00CBFB1E /* ContentView.swift */; };
 		42BE35CD26E917B000CBFB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BE35CC26E917B000CBFB1E /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		4201A828270DEB5C007E40B2 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
+		42B6D6B6272C369A003702E6 /* example_section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_section.swift; sourceTree = "<group>"; };
+		42B6D6BA272C80E8003702E6 /* ModelListView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelListView .swift"; sourceTree = "<group>"; };
+		42B6D6BC272C88EA003702E6 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		42B6D6BE272F063D003702E6 /* TweetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCard.swift; sourceTree = "<group>"; };
 		42BE35C526E917AE00CBFB1E /* swift_ui_101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_ui_101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BE35C826E917AE00CBFB1E /* swift_ui_101App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ui_101App.swift; sourceTree = "<group>"; };
 		42BE35CA26E917AE00CBFB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,7 +88,7 @@
 		4201A826270DEB12007E40B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4201A827270DEB25007E40B2 /* Circle */,
+				42B6D6B5272C3673003702E6 /* Features */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +99,33 @@
 				4201A828270DEB5C007E40B2 /* CircleTextImageView.swift */,
 			);
 			path = Circle;
+			sourceTree = "<group>";
+		};
+		42B6D6B5272C3673003702E6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				42B6D6B9272C80BE003702E6 /* List_101 */,
+				42B6D6B8272C80B1003702E6 /* ModelList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		42B6D6B8272C80B1003702E6 /* ModelList */ = {
+			isa = PBXGroup;
+			children = (
+				42B6D6BA272C80E8003702E6 /* ModelListView .swift */,
+				42B6D6BC272C88EA003702E6 /* TweetModel.swift */,
+				42B6D6BE272F063D003702E6 /* TweetCard.swift */,
+			);
+			path = ModelList;
+			sourceTree = "<group>";
+		};
+		42B6D6B9272C80BE003702E6 /* List_101 */ = {
+			isa = PBXGroup;
+			children = (
+				42B6D6B6272C369A003702E6 /* example_section.swift */,
+			);
+			path = List_101;
 			sourceTree = "<group>";
 		};
 		42BE35BC26E917AE00CBFB1E = {
@@ -117,6 +152,7 @@
 		42BE35C726E917AE00CBFB1E /* swift_ui_101 */ = {
 			isa = PBXGroup;
 			children = (
+				4201A827270DEB25007E40B2 /* Circle */,
 				4201A826270DEB12007E40B2 /* View */,
 				42BE35C826E917AE00CBFB1E /* swift_ui_101App.swift */,
 				42BE35CA26E917AE00CBFB1E /* ContentView.swift */,
@@ -288,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B6D6BB272C80E8003702E6 /* ModelListView .swift in Sources */,
+				42B6D6B7272C369A003702E6 /* example_section.swift in Sources */,
+				42B6D6BF272F063D003702E6 /* TweetCard.swift in Sources */,
 				42BE35CB26E917AE00CBFB1E /* ContentView.swift in Sources */,
+				42B6D6BD272C88EA003702E6 /* TweetModel.swift in Sources */,
 				4201A829270DEB5C007E40B2 /* CircleTextImageView.swift in Sources */,
 				42BE35C926E917AE00CBFB1E /* swift_ui_101App.swift in Sources */,
 			);

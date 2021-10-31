@@ -19,12 +19,9 @@ struct IconFiledView : View {
             Image(systemName: textFieldValue.lowercased()).frame(width: 200, height: 200, alignment: .center)
         }
     }
-    
     var body: some View {
         CircleTextImageView(title: "ATOMIC WIDGET", imageURL: "https://picsum.photos/seed/picsum/200/300").frame(width: 200, height: 200, alignment: .center)
     }
-    
-    
 }
 
 
