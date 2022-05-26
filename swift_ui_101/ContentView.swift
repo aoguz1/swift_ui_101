@@ -65,13 +65,19 @@ struct ContentView: View {
         }
     }
     
+    @State var textFieldValue = ""
     var body: some View {
-        groupFinded()
+       
+         VStack{
+            TextField("Placeholder", text: $textFieldValue)
+            Text(textFieldValue).bold().font(.largeTitle)
+            Image(systemName: textFieldValue.lowercased()).frame(width: 200, height: 200, alignment: .center)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        IconFiledView()
+        ContentView()
     }
 }

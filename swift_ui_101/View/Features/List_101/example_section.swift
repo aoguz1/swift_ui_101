@@ -16,7 +16,7 @@ struct SampleListView: View {
     var body: some View {
 
         VStack{
-            NavigationView {
+            NavigationView{
                 List(content: {
                     // liste içinde konumlandırma
                     HStack{
@@ -55,3 +55,4 @@ struct example_section_Previews: PreviewProvider {
         SampleListView()
     }
 }
+

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct TweetCard: View {
     let tweet: TweetModel
+    
     var body: some View {
+        
         VStack(alignment: .leading) {
             Text(tweet.userName).padding(.bottom).font(.title)
             HStack {

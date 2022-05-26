@@ -22,9 +22,7 @@ extension TweetModel {
         TweetModel(userName: "fatihemree", body: "new tweet", likeCount: 1),
         TweetModel(userName: "fatih.oguz", body: "new tweet", likeCount: 23),
         TweetModel(userName: "gdgdenizli", body: "new tweet", likeCount: 21)
-        
     ]
     
     static let fakeTweet = TweetModel(userName: "aoguz", body: "new tweet", likeCount: 2)
-
 }
