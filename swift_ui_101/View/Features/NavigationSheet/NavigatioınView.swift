@@ -26,7 +26,7 @@ struct NavigationPage: View {
                     }
 
                 }
-                // Here open iOS guadline open page sheet 
+                // Here open iOS guadline open page sheet
                 .sheet(isPresented: $isPresent, onDismiss: {
                     print("Dismiss")
                 }, content: {
