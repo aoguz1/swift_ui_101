@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		4201A825270DE0B4007E40B2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4201A824270DE0B4007E40B2 /* Kingfisher */; };
 		4201A829270DEB5C007E40B2 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201A828270DEB5C007E40B2 /* CircleTextImageView.swift */; };
+		424760152847ABB7003D2DCD /* EnvironmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424760142847ABB7003D2DCD /* EnvironmentController.swift */; };
+		424760172847AFF0003D2DCD /* DateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424760162847AFF0003D2DCD /* DateDetailView.swift */; };
 		4269FB782844B93C00782108 /* CustomTabEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269FB772844B93C00782108 /* CustomTabEnum.swift */; };
+		4269FB7E28477B8700782108 /* EnviromentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269FB7D28477B8700782108 /* EnviromentView.swift */; };
+		4269FB802847866300782108 /* Spacer+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269FB7F2847866300782108 /* Spacer+Constant.swift */; };
 		4274A18F283FC3BF007689F7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274A18E283FC3BF007689F7 /* CustomTabView.swift */; };
 		4287BE772764E15200726464 /* NewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4287BE762764E15200726464 /* NewExampleView.swift */; };
 		428A6826283DDDED000416AC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A6825283DDDED000416AC /* UserModel.swift */; };
@@ -46,7 +50,11 @@
 
 /* Begin PBXFileReference section */
 		4201A828270DEB5C007E40B2 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
+		424760142847ABB7003D2DCD /* EnvironmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentController.swift; sourceTree = "<group>"; };
+		424760162847AFF0003D2DCD /* DateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetailView.swift; sourceTree = "<group>"; };
 		4269FB772844B93C00782108 /* CustomTabEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabEnum.swift; sourceTree = "<group>"; };
+		4269FB7D28477B8700782108 /* EnviromentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentView.swift; sourceTree = "<group>"; };
+		4269FB7F2847866300782108 /* Spacer+Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer+Constant.swift"; sourceTree = "<group>"; };
 		4274A18E283FC3BF007689F7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		4287BE762764E15200726464 /* NewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExampleView.swift; sourceTree = "<group>"; };
 		428A6825283DDDED000416AC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -113,6 +121,17 @@
 			path = Circle;
 			sourceTree = "<group>";
 		};
+		4269FB7A28477AD000782108 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				4269FB7D28477B8700782108 /* EnviromentView.swift */,
+				4269FB7F2847866300782108 /* Spacer+Constant.swift */,
+				424760142847ABB7003D2DCD /* EnvironmentController.swift */,
+				424760162847AFF0003D2DCD /* DateDetailView.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
 		428A6823283DDD6A000416AC /* ExampleUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +153,7 @@
 		42B6D6B5272C3673003702E6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4269FB7A28477AD000782108 /* Environment */,
 				42F1EC4C283FC23E0079BC0B /* Tabbar */,
 				428A6824283DDD81000416AC /* NavigationSheet */,
 				428A6823283DDD6A000416AC /* ExampleUI */,
@@ -371,14 +391,18 @@
 				42B6D6B7272C369A003702E6 /* example_section.swift in Sources */,
 				4274A18F283FC3BF007689F7 /* CustomTabView.swift in Sources */,
 				42B6D6BF272F063D003702E6 /* TweetCard.swift in Sources */,
+				4269FB7E28477B8700782108 /* EnviromentView.swift in Sources */,
 				42BE35CB26E917AE00CBFB1E /* ContentView.swift in Sources */,
 				42B6D6BD272C88EA003702E6 /* TweetModel.swift in Sources */,
 				42F1EC4B283FB5830079BC0B /* UserViewDetail.swift in Sources */,
 				428A6828283DDEE2000416AC /* NavigatioınView.swift in Sources */,
+				4269FB802847866300782108 /* Spacer+Constant.swift in Sources */,
 				4201A829270DEB5C007E40B2 /* CircleTextImageView.swift in Sources */,
 				4269FB782844B93C00782108 /* CustomTabEnum.swift in Sources */,
+				424760172847AFF0003D2DCD /* DateDetailView.swift in Sources */,
 				428A6826283DDDED000416AC /* UserModel.swift in Sources */,
 				42BE35C926E917AE00CBFB1E /* swift_ui_101App.swift in Sources */,
+				424760152847ABB7003D2DCD /* EnvironmentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

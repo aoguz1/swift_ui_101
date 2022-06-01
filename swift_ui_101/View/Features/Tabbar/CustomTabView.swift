@@ -59,7 +59,9 @@ struct HomeTab: View {
                     }
                 }
 
-            
+                .toolbar{
+                    EditButton()
+                }
         }.navigationTitle("Furuits")
     }
 }
